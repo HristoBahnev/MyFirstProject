@@ -1,4 +1,3 @@
-.vs
-Homeworks/.vs
-Homeworks/Homeworks/obj
-Homeworks/Homeworks/bin
+.vs/
+obj/
+bin/
