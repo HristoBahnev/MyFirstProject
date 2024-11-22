@@ -21,8 +21,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordGenerator", "Passwo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture 2", "Lecture 2", "{7415D48C-6B62-4024-AD41-701D360B55FD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture 4", "Lecture 4", "{C1579C19-CFB2-4C04-991B-D7FA30E639CC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
