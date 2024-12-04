@@ -128,7 +128,7 @@
 
         Console.Write("Enter subject and grade in the format {Subject name}-{grade}: ");
         string input = Console.ReadLine();
-        var subjectAndGrade = input.Split("-");
+        string[] subjectAndGrade = input.Split("-");
 
         if (subjectAndGrade.Length != 2)
         {
@@ -171,10 +171,10 @@
     {
         Console.WriteLine("Displaying all students:\n");
 
-        foreach (var student in students)
+        foreach (KeyValuePair<string, Dictionary<string, List<double>>> student in students)
         {
             string name = student.Key;
-            var subjectsAndGrades = student.Value;
+            Dictionary<string, List<double>> subjectsAndGrades = student.Value;
 
             Console.WriteLine($"{name}, Subjects:");
 
