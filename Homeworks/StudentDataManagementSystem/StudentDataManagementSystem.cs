@@ -181,9 +181,8 @@
             foreach (var subject in subjectsAndGrades)
             {
                 double averageGrade = subject.Value.Any() ? subject.Value.Average() : 0;
-                Console.WriteLine($"{subject.Key}: {string.Join(", ", subject.Value)} (Average Grade: {averageGrade:F2})");
+                Console.WriteLine($"{subject.Key}: {string.Join(", ", subject.Value)} (Average Grade: {averageGrade:F2})\n");
             }
-            Console.WriteLine();
         }
     }
 }
