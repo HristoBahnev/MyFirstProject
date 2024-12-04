@@ -1,7 +1,12 @@
 ﻿Console.WriteLine("Enter a number: ");
-int number = int.Parse(Console.ReadLine());
-
-Console.WriteLine(checkIsPrime(number) ? "true (prime)" : "false (not prime)");
+if (int.TryParse(Console.ReadLine(), out int number))
+{
+    Console.WriteLine(checkIsPrime(number) ? "true (prime)" : "false (not prime)");
+}
+else
+{
+    Console.WriteLine("Invalid input. Please enter a valid integer.");
+}
 
 bool checkIsPrime(int number)
 {
@@ -9,12 +14,11 @@ bool checkIsPrime(int number)
     {
         return false;
     }
-    for (int i = 2; i < number; i++)
+    for (int divisor = 2; divisor < number; divisor++)
     {
-        if (number % i == 0)
+        if (number % divisor == 0)
         {
             return false;
-            break;
         }
     }
     return true;

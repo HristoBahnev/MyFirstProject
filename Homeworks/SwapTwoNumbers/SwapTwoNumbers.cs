@@ -1,9 +1,15 @@
-﻿Console.WriteLine("Enter value of x:");
-int firstNumber = int.Parse(Console.ReadLine());
+﻿int firstNumber, secondNumber;
+Console.WriteLine("Enter value of x:");
+while (!int.TryParse(Console.ReadLine(), out firstNumber))
+{
+    Console.WriteLine("Invalid input");
+}
 
 Console.WriteLine("Enter value of y:");
-int secondNumber = int.Parse(Console.ReadLine());
-
+while (!int.TryParse(Console.ReadLine(), out secondNumber))
+{
+    Console.WriteLine("Invalid input.");
+}
 SwapNumbers(ref firstNumber, ref secondNumber);
 Console.WriteLine($"The value of x is:{firstNumber} ");
 Console.WriteLine($"The value of y is:{secondNumber} ");

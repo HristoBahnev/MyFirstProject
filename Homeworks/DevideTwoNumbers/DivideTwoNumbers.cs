@@ -1,8 +1,15 @@
-﻿Console.WriteLine("Enter value of x:");
-int firstNumber = int.Parse(Console.ReadLine());
+﻿int firstNumber, secondNumber;
+Console.WriteLine("Enter value of x:");
+while (!int.TryParse(Console.ReadLine(), out firstNumber))
+{
+    Console.WriteLine("Invalid input");
+}
 
 Console.WriteLine("Enter value of y:");
-int secondNumber = int.Parse(Console.ReadLine());
+while (!int.TryParse(Console.ReadLine(), out secondNumber) )
+{
+    Console.WriteLine("Invalid input.");
+}
 
 int quatitient, remainder;
 Division(firstNumber, secondNumber, out quatitient, out remainder);

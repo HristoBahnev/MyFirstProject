@@ -11,7 +11,7 @@ string ReverseString(string stringInput)
         reversedList.Insert(0, c);
     }
 
-    return new string(reversedList.ToArray());
+    return string.Join("", reversedList);
 }
 
 

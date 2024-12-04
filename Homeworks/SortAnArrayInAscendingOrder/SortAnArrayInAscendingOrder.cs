@@ -6,15 +6,15 @@ Console.WriteLine(string.Join(",", sortAnArray(inputArray)));
 
 int[] sortAnArray(int[] inputArray)
 {
-    for (int i = 0; i < inputArray.Length - 1; i++)
+    for (int iteration = 0; iteration < inputArray.Length - 1; iteration++)
     {
-        for (int j = 0; j < inputArray.Length - i - 1; j++)
+        for (int currentIndex = 0; currentIndex < inputArray.Length - iteration - 1; currentIndex++)
         {
-            if (inputArray[j] > inputArray[j + 1])
+            if (inputArray[currentIndex] > inputArray[currentIndex + 1])
             {
-                int temp = inputArray[j];
-                inputArray[j] = inputArray[j + 1];
-                inputArray[j + 1] = temp;
+                int temp = inputArray[currentIndex];
+                inputArray[currentIndex] = inputArray[currentIndex + 1];
+                inputArray[currentIndex + 1] = temp;
             }
         }
 

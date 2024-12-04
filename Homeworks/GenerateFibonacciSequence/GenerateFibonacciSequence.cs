@@ -1,6 +1,17 @@
-﻿Console.WriteLine("Enter a number:");
-int inputNumber = int.Parse(Console.ReadLine());
+﻿int inputNumber;
 
+
+Console.WriteLine("Enter a number:");
+
+if (int.TryParse(Console.ReadLine(), out inputNumber))
+{
+
+    Console.WriteLine($"The first {inputNumber} number from the Fibonacci sequence are: {string.Join(",", FibonacciSequence(inputNumber))}");
+}
+else
+{
+    Console.WriteLine("Invalid number");
+}
 List<int> FibonacciSequence(int x)
 {
 
@@ -24,5 +35,3 @@ List<int> FibonacciSequence(int x)
     return fibonacciList;
 }
 
-
-Console.WriteLine($"The first {inputNumber} number from the Fibonacci sequence are: {string.Join(",", FibonacciSequence(inputNumber))}");
