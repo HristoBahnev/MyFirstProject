@@ -5,7 +5,7 @@ VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 2", "Homeworks\Lecture 2.csproj", "{E90D836A-E27C-4D16-84E2-783D1ADB44AA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture 3", "Lecture 3", "{A4228AFB-5AED-4B63-9542-C4308F9D475E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture3", "Lecture3", "{A4228AFB-5AED-4B63-9542-C4308F9D475E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaHall", "CinemaHall\CinemaHall.csproj", "{809E66A3-932F-4EDF-A378-5C8E65621CE0}"
 EndProject
@@ -19,9 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayCake", "BirthdayCak
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordGenerator", "PasswordGenerator\PasswordGenerator.csproj", "{793EB2C4-0E4C-49CD-AF2D-F010900D8F21}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture 2", "Lecture 2", "{7415D48C-6B62-4024-AD41-701D360B55FD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture2", "Lecture2", "{7415D48C-6B62-4024-AD41-701D360B55FD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture 4", "Lecture 4", "{BB41606C-03B9-4960-BB57-085E7113CD25}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture4", "Lecture4", "{BB41606C-03B9-4960-BB57-085E7113CD25}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonElements", "CommonElements\CommonElements.csproj", "{24CB275D-E4C8-4B9A-8FAA-11ECE7C4C512}"
 EndProject
@@ -39,7 +39,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicStackOperations", "Bas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicQueueOperations", "BasicQueueOperations\BasicQueueOperations.csproj", "{30A95DDC-D994-4F18-9A8D-E0C5EF4B1914}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture 5", "Lecture 5", "{A4A2D76B-3686-4D76-85F5-E4A131DB20D1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture5", "Lecture5", "{A4A2D76B-3686-4D76-85F5-E4A131DB20D1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheLargestNumberInAnArray", "FindTheLargestNumberInAnArray\FindTheLargestNumberInAnArray.csproj", "{FBD112A7-9366-47D2-BB2E-DF62E14DA5F3}"
 EndProject
@@ -47,7 +47,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseAString", "ReverseAS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateFibonacciSequence", "GenerateFibonacciSequence\GenerateFibonacciSequence.csproj", "{8CDBA156-1EA7-4BB7-BDCD-10EC2633DC21}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practical Session", "Practical Session", "{6C658B8C-40E2-4A8D-837F-9C7C1C26471F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticalSession", "PracticalSession", "{6C658B8C-40E2-4A8D-837F-9C7C1C26471F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentDataManagementSystem", "StudentDataManagementSystem\StudentDataManagementSystem.csproj", "{28CF1ED7-9FE0-431E-9060-E071E42FB23A}"
 EndProject
@@ -63,9 +63,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideTwoNumbers", "DevideT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseStringToNumber", "ParseStringToNumber\ParseStringToNumber.csproj", "{3FBB119A-30FA-4F2D-8D04-BC81FB63C759}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture 7", "Lecture 7", "{00BECE30-8E14-49EB-A4C4-2907538FCDCF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture7", "Lecture7", "{00BECE30-8E14-49EB-A4C4-2907538FCDCF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture7", "Lecture7\Lecture7.csproj", "{15DB065B-5DBF-45A6-80FE-7D042F17A0D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture8", "Lecture8", "{D767901B-C8A0-4391-B103-8A7D57030F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture8", "Tasks\Lecture8.csproj", "{70E5C612-2803-4CF5-B84C-11FB46BEA8A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +181,10 @@ Global
 		{15DB065B-5DBF-45A6-80FE-7D042F17A0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15DB065B-5DBF-45A6-80FE-7D042F17A0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15DB065B-5DBF-45A6-80FE-7D042F17A0D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E5C612-2803-4CF5-B84C-11FB46BEA8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E5C612-2803-4CF5-B84C-11FB46BEA8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E5C612-2803-4CF5-B84C-11FB46BEA8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E5C612-2803-4CF5-B84C-11FB46BEA8A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -208,5 +216,6 @@ Global
 		{73C4DD2B-9DBC-4A88-9372-372A4EDA8E1F} = {A4A2D76B-3686-4D76-85F5-E4A131DB20D1}
 		{3FBB119A-30FA-4F2D-8D04-BC81FB63C759} = {A4A2D76B-3686-4D76-85F5-E4A131DB20D1}
 		{15DB065B-5DBF-45A6-80FE-7D042F17A0D5} = {00BECE30-8E14-49EB-A4C4-2907538FCDCF}
+		{70E5C612-2803-4CF5-B84C-11FB46BEA8A4} = {D767901B-C8A0-4391-B103-8A7D57030F40}
 	EndGlobalSection
 EndGlobal
