@@ -79,5 +79,36 @@
         {
             IsBorrowed = false;
         }
+
+        Dictionary<string, int> borrowerLimits = new Dictionary<string, int>();
+
+        public void BorrowItem(string borrower, DateTime dueDate)
+        {
+            if (!borrowerLimits.ContainsKey(borrower))
+                borrowerLimits[borrower] = 0;
+
+            if (borrowerLimits[borrower] >= 3)
+            {
+                Console.WriteLine($"{borrower} cannot borrow more than 3 items at once.");
+                return;
+            }
+
+            Borrow(borrower, dueDate);
+            if (IsBorrowed)
+                borrowerLimits[borrower]++;
+        }
+
+        public void ReturnItem(string borrower)
+        {
+            if (IsBorrowed && Borrower == borrower)
+            {
+                Return();
+                borrowerLimits[borrower]--;
+            }
+            else
+            {
+                Console.WriteLine($"Error: {borrower} cannot return '{Title}' as it is not borrowed by them.");
+            }
+        }
     }
 }
